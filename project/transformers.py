@@ -29,3 +29,4 @@ def calc_bike_facts(df: DataFrame) -> DataFrame:
             count('*').alias('COUNT'), 
             avg('TRIPDURATION').alias('AVG_TRIPDURATION'), 
             avg('RIDER_AGE').alias('AVG_RIDER_AGE'))
+
